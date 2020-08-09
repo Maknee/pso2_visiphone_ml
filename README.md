@@ -2,25 +2,26 @@
 
 Use Machine learning to predict price of an item in Phantasy Star Online: 2
 
-![Results](results.png)
-
 #### Green are true values and X are predictions
+
+![Results](results.png)
 
 ### Integration with discord as a bot
 
 ![DiscordImage](discord_example.png)
 
-
-## Setup dependencies (highly suggest creating a virtual environment)
-
-`
-pip install -r requirements.txt
-`
+### Note: this is just a foundation for future work
 
 ## Anaylsis of data, preprocessing data and building the models
 
 `
 AnalysisAndBuild.ipynb
+`
+
+## Setup dependencies (highly suggest creating a virtual environment)
+
+`
+pip install -r requirements.txt
 `
 
 ## Setup discord bot for usage on live data 
@@ -33,9 +34,11 @@ AnalysisAndBuild.ipynb
 `
 set your discord token in pso2_discord.py
 TOKEN = 'SET_YOUR_DISCORD_TOKEN_HERE'
+`
 
 Then run the discord bot by typing in the command line:
 
+`
 python pso2_discord.py
 `
 
